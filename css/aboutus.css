@@ -1,0 +1,245 @@
+/* line 1, ../../../../hlegals 2/scss/aboutus.scss */
+.about {
+  display: flex;
+  gap: 42px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 68px;
+  margin-bottom: 100px;
+}
+
+/* line 8, ../../../../hlegals 2/scss/aboutus.scss */
+.about-header {
+  margin: 0;
+  width: 100%;
+  font-size: 42px;
+}
+
+/* line 13, ../../../../hlegals 2/scss/aboutus.scss */
+.about-heading {
+  width: 50%;
+}
+
+/* line 16, ../../../../hlegals 2/scss/aboutus.scss */
+.about-text {
+  margin-top: 20px;
+  font-size: 21px;
+}
+
+/* line 20, ../../../../hlegals 2/scss/aboutus.scss */
+.about-text2 {
+  font-size: 21px;
+}
+
+/* line 23, ../../../../hlegals 2/scss/aboutus.scss */
+.about-p, .about-text2 {
+  margin: 0;
+}
+
+/* line 27, ../../../../hlegals 2/scss/aboutus.scss */
+.icons {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+/* line 32, ../../../../hlegals 2/scss/aboutus.scss */
+.numbers {
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(45deg, #F0145A, #EF8080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 5px;
+}
+
+/* line 40, ../../../../hlegals 2/scss/aboutus.scss */
+.benefits {
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+/* line 44, ../../../../hlegals 2/scss/aboutus.scss */
+.benefits:nth-of-type(3) {
+  margin: 0;
+}
+
+/* line 47, ../../../../hlegals 2/scss/aboutus.scss */
+.div-about {
+  padding-left: 20px;
+  border-left: 4px solid #E6E6F0;
+}
+
+/* line 51, ../../../../hlegals 2/scss/aboutus.scss */
+.background {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+}
+
+/* line 59, ../../../../hlegals 2/scss/aboutus.scss */
+.background-text {
+  padding-top: 162px;
+  padding-bottom: 162px;
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: 63px;
+  color: white;
+  text-align: center;
+  opacity: .8;
+  text-shadow: 2px 2px #282856CC;
+}
+
+/* line 72, ../../../../hlegals 2/scss/aboutus.scss */
+.about-info {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* line 80, ../../../../hlegals 2/scss/aboutus.scss */
+.about-info-text {
+  width: 50%;
+}
+
+/* line 83, ../../../../hlegals 2/scss/aboutus.scss */
+.about-info-text2 {
+  width: 30%;
+}
+
+/* line 87, ../../../../hlegals 2/scss/aboutus.scss */
+.about-info p {
+  font-size: 21px;
+}
+
+/* line 90, ../../../../hlegals 2/scss/aboutus.scss */
+.about-info-head {
+  font-size: 42px;
+  font-weight: 700;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 98, ../../../../hlegals 2/scss/aboutus.scss */
+.swiper-head {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #323264;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 106, ../../../../hlegals 2/scss/aboutus.scss */
+.border-footer {
+  border-top: 4px solid #E6E6F0;
+}
+
+/* line 109, ../../../../hlegals 2/scss/aboutus.scss */
+.item-flex {
+  padding-top: 32px;
+}
+
+/* line 112, ../../../../hlegals 2/scss/aboutus.scss */
+.footer-style {
+  padding-top: 0;
+}
+
+/* line 115, ../../../../hlegals 2/scss/aboutus.scss */
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  padding-top: 30px;
+}
+
+@media (max-width: 1199px) {
+  /* line 121, ../../../../hlegals 2/scss/aboutus.scss */
+  .about-heading {
+    width: 70%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 127, ../../../../hlegals 2/scss/aboutus.scss */
+  .about {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 0;
+    margin-bottom: 34px;
+  }
+  /* line 133, ../../../../hlegals 2/scss/aboutus.scss */
+  .about-heading {
+    width: 100%;
+    border-bottom: 4px solid #E6E6F0;
+    padding-bottom: 20px;
+  }
+  /* line 138, ../../../../hlegals 2/scss/aboutus.scss */
+  .benefits {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  /* line 142, ../../../../hlegals 2/scss/aboutus.scss */
+  .div-about {
+    padding-left: 0px;
+    border-left: 0px;
+  }
+  /* line 146, ../../../../hlegals 2/scss/aboutus.scss */
+  .about-info {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  /* line 151, ../../../../hlegals 2/scss/aboutus.scss */
+  .about-info-text, .about-info-text2 {
+    width: 100%;
+  }
+  /* line 156, ../../../../hlegals 2/scss/aboutus.scss */
+  .background-text {
+    letter-spacing: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 161, ../../../../hlegals 2/scss/aboutus.scss */
+  .background-text {
+    letter-spacing: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 166, ../../../../hlegals 2/scss/aboutus.scss */
+  .background-text {
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  /* line 170, ../../../../hlegals 2/scss/aboutus.scss */
+  .about-header, .about-info-head {
+    font-size: 32px;
+  }
+  /* line 173, ../../../../hlegals 2/scss/aboutus.scss */
+  .about-text, .about-text2, .about-info-text {
+    font-size: 18px;
+  }
+  /* line 176, ../../../../hlegals 2/scss/aboutus.scss */
+  .background {
+    height: 290px;
+  }
+  /* line 178, ../../../../hlegals 2/scss/aboutus.scss */
+  .background-text {
+    padding-top: 124px;
+    padding-bottom: 124px;
+  }
+}
+
+@media (max-width: 336px) {
+  /* line 185, ../../../../hlegals 2/scss/aboutus.scss */
+  .background-text {
+    letter-spacing: 15px;
+  }
+}
+
+/*# sourceMappingURL=aboutus.css.map */

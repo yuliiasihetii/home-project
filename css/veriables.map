@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "veriables.css",
+	"sources": [
+		"../scss/veriables.scss"
+	],
+	"sourcesContent": [
+		"$red-color: #F0145A;\n$lightgrey:#F5F5FA;\n$blue:#24A3FF;\n$grey:#B3B3BA;\n\n\n"
+	],
+	"names": [],
+	"mappings": ""
+}

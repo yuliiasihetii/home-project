@@ -1,0 +1,118 @@
+.person-profile{
+    display: flex;
+    gap: 41px;
+}
+.person-info{
+    width: 641px;
+    margin-bottom: 80px;
+}
+.name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.links-info{
+    display: flex;
+    gap: 26px;
+    border-bottom: 4px solid #E6E6F0 ;
+    margin-bottom: 40px;
+
+    p{
+        color: $grey;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .email, .linkedin{
+        text-decoration: none;
+        color: $blue;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+.text-info-person1, .text-info-person2, .text-info-person3, .text-info-person4{
+    font-weight: 400;
+    color: black;
+}
+.text-info-person2{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.text-info-person3{
+    margin-bottom: 40px;
+}
+
+.paragraf{
+    margin-bottom: 10px;
+    color: #323264;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.email::after, .email::before{
+    content: url(../img/dot.svg);
+    position: relative;
+    color: $grey;
+}
+.email::before{
+    left: -10%;
+}
+.email::after{
+    left: 9%;
+}
+
+
+@media(max-width: 1199px){
+    .person-info{
+        width: 490px;
+    }
+}
+@media(max-width: 991px){
+
+    .person-profile{
+        flex-direction: column;
+        gap: 0 ;
+    }
+}
+@media(max-width: 767px){
+    .person-info{
+        max-width: 100%;
+    }
+}
+@media(max-width: 548px){
+    .email::after, .email::before{
+        display: none;
+    }
+    .links-info{
+        flex-direction: column;
+        gap: 11px;
+    }
+    .name{
+        margin-left: 0;
+    }
+    .links-info{
+        p{
+            margin-bottom: 0px;
+        }
+    }
+    .linkedin{
+        margin-bottom: 20px ;
+    }
+    .links-info{
+        margin-bottom: 20px;
+    }
+    .text-info-person2, .text-info-person3{
+        margin-bottom: 20px;
+    }
+    .person-info{
+        margin-bottom: 40px;
+    }
+    .person-img img{
+        width: 335px;
+    }
+}
+@media(max-width: 353px){
+    .person-img img{
+        width: 300px;
+    }
+}
