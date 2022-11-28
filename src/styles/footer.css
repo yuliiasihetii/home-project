@@ -1,0 +1,138 @@
+.delivery-time-item span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #212245;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #fde4e4;
+}
+
+.footer-logo img {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.footer-logo h5 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #333;
+    line-height: 28px;
+}
+
+.delivery-time-item {
+    background: transparent !important;
+}
+
+.delivery-time-item p {
+    color: #212245;
+}
+
+.delivery-title {
+    font-size: 18px;
+    font-size: 600;
+    color: #212245;
+}
+
+.newsletter {
+    padding: 5px;
+    border: 1px solid #212245;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.newsletter input {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.newsletter input:focus {
+    outline: none;
+}
+
+.newsletter input::placeholder {
+    color: #212245;
+}
+
+.newsletter span {
+    background: #212245;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.newsletter i {
+    color: #fff;
+}
+
+.social-links span i {
+    padding: 5px;
+    background: #212245;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.copyright-text {
+    font-size: 12px;
+    color: #212245;
+}
+
+.logo-title-footer {
+    margin-top: -15px;
+}
+
+@media only screen and (max-width:1399px) {
+    .newsletter input {
+        padding: 10px 7px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .newsletter span {
+        padding: 5px 25px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .delivery-title {
+        font-size: 12px;
+    }
+
+    .delivery-time-item span {
+        font-size: 12px;
+    }
+
+    .delivery-time-item p {
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .social-links p {
+        font-size: 12px;
+    }
+
+    .social-links span {
+        padding: 4px;
+    }
+
+    .social-links span a {
+        font-size: 11px;
+    }
+
+    .copyright-text {
+        text-align: center;
+    }
+}

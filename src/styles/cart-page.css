@@ -1,0 +1,31 @@
+th {
+    text-align: center;
+}
+
+.cart-img-box {
+    width: 80px;
+}
+
+.cart-img-box img {
+    width: 100%;
+}
+
+.cart-item-delete i {
+    cursor: pointer;
+}
+
+.cart-page-btn button a {
+    color: #fff;
+}
+
+.cart-subtotal {
+    color: #df2020;
+    font-size: 24px;
+
+}
+
+@media only screen and (max-width:385px) {
+    td {
+        font-size: 12px !important;
+    }
+}
